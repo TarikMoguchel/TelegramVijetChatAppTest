@@ -1,0 +1,61 @@
+.mainShield {
+    height: 100%;
+    -webkit-filter: drop-shadow(0 0 10px #4296df) blur(1px);
+    filter: drop-shadow(0 0 10px #4296df) blur(1px);
+ 
+
+}
+
+
+.wrapperShield {
+    position: relative;
+    margin:5rem 0;
+}
+
+.secondShield {
+    position: absolute;
+    height: 91%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-filter:  blur(2px);
+    filter: blur(2px);
+
+}
+.wrapperTextShield{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -51%);
+    height: 83%;
+    width: 82%;
+}
+.textShield{
+    background-color: #54a1e418;
+    border:none;
+    margin:0;
+    -webkit-filter:  blur(1px);
+    filter: blur(1px);
+}
+.contentShield{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -51%);
+    height: 83%;
+    width: 82%;
+    
+
+    text-align: center;
+    color:white;
+    padding: 3rem 0;
+    box-sizing: border-box;
+}
+.contentShield>h1{
+    text-transform: uppercase;
+    -webkit-filter: drop-shadow(0 0 10px #4296df) ;
+    filter: drop-shadow(0 0 10px #4296df) ;
+
+}
